@@ -4,7 +4,7 @@
 
 The long-term survival of **liver transplant** recipients beyond one year is significantly compromised by an increased risk of **cancer**, **cardiovascular mortality**, **infection** and **graft failure**. There are currently limited clinical tools to identify patients at risk of these complications, which would flag them for screening tests and life-saving interventions. 
 
-We hereby propose **Deep Learning** models designed for longitudinal data that reliably predicts an updated clinical outlook for individual patients. Here is an example of how our top-performing **Transformer** model estimates the risk progression of a patient more than 20 years post-transplant, accurately outlining the top risks.
+We hereby propose **Deep Learning** models designed for longitudinal data that reliably predicts an updated clinical outlook for individual patients. Here is an example of how our top-performing **Transformer** model estimates the risk progression of a patient more than 20 years post-transplant, accurately outlining the top complications.
 
 <img src="https://github.com/bowang-lab/Transplant_Time_Series/blob/master/Img/patient.png" width="60%" height="60%">
 
