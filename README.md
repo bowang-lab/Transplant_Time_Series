@@ -18,7 +18,7 @@ The transferability of the model was further evaluated by testingfine-tuning on 
 
 :bulb: **Results**
 
-The area under the receiver operating characteristic curve (AUROC) for the top-performing Transformer Model across all outcomes in the SRTR dataset was 0.804, 99% CI [0.795, 0.854] (1 year) and 0.733, 99% CI [0.729, 0.769] (5 years). In the UHN dataset, the top deep learning AUROC was 0.807, 99% CI [0.795, 0.842] (1 year) and 0.722, 99% CI [0.705, 0.764] (5 years). AUROCs ranged from 0.695 for 5-year infection death to 0.856 for 1-year graft failure.
+The area under the receiver operating characteristic curve (AUROC) for the top-performing **Transformer** Model across all outcomes in the SRTR dataset was 0.804, 99% CI [0.795, 0.854] (1 year) and 0.733, 99% CI [0.729, 0.769] (5 years). In the UHN dataset, the top deep learning AUROC was 0.807, 99% CI [0.795, 0.842] (1 year) and 0.722, 99% CI [0.705, 0.764] (5 years). AUROCs ranged from 0.695 for 5-year infection death to 0.856 for 1-year graft failure.
 
 <img src="https://github.com/bowang-lab/Transplant_Time_Series/blob/master/Img/results.png" width="60%" height="60%">
 
