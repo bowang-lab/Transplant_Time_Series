@@ -11,7 +11,7 @@ We hereby propose **Deep Learning** models designed for longitudinal data that r
 <img src="https://github.com/bowang-lab/Transplant_Time_Series/blob/master/Img/patient.png" width="60%" height="60%">
 
 ## Requirements and Installation
-First, install dependencies
+First, install dependencies.
 ```bash
 # clone project   
 git clone git@github.com:bowang-lab/Transplant_Time_Series.git
@@ -20,8 +20,11 @@ git clone git@github.com:bowang-lab/Transplant_Time_Series.git
 cd Transplant_Time_Series
 conda env create -f environment.yml
 ```
-Next, 
-Next, activate the environment and run it. 
+Next, download the transplant data from the SRTR Database and process it accordingly.
+```bash
+https://www.srtr.org/about-the-data/the-srtr-database/
+```
+Then, activate the environment and run the algorithms. 
  ```bash
 conda activate transplant
 
