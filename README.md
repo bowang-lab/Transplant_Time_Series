@@ -28,8 +28,9 @@ Then, activate the environment and run the algorithms.
  ```bash
 conda activate transplant
 
-# run model under different modules: 
-python train.py
+# run model under different modules, add hyperparameter accordingly
+python train.py --epochs 30 --batch 256
+
 
 # check `Models/<Transformer>/train.py` for more args
 ```
