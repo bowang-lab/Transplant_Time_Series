@@ -20,14 +20,15 @@ git clone git@github.com:bowang-lab/Transplant_Time_Series.git
 cd Transplant_Time_Series
 conda env create -f environment.yml
 ```
+Next, 
 Next, activate the environment and run it. 
  ```bash
 conda activate transplant
 
-# run module: 
-python 
+# run model under different modules: 
+python train.py
 
-# check `Models/Transformer/train.py` for more args
+# check `Models/<Transformer>/train.py` for more args
 ```
 
 ## Methods
