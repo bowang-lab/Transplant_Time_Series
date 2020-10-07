@@ -27,4 +27,21 @@ We compared the performance of our **Transformer** model with other DL-based mod
 <img src="https://github.com/bowang-lab/Transplant_Time_Series/blob/master/Img/comparison.png" width="70%" height="70%">
 
 ## Requirements and Installation
+First, install dependencies
+```bash
+# clone project   
+git clone git@github.com:bowang-lab/Transplant_Time_Series.git
 
+# install project   
+cd Transplant_Time_Series
+conda env create -f environment.yml
+```
+Next, activate the environment and run it. 
+ ```bash
+conda activate transplant
+
+# run module: 
+python 
+
+# check `Models/Transformer/train.py` for more args
+```
