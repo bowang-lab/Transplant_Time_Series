@@ -16,7 +16,7 @@ First, install dependencies.
 # clone project   
 git clone git@github.com:bowang-lab/Transplant_Time_Series.git
 
-# install project   
+# install project environment
 cd Transplant_Time_Series
 conda env create -f environment.yml
 ```
