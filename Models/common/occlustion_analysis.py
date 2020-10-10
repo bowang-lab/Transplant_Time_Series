@@ -96,7 +96,7 @@ if __name__ == "__main__":
     num_followups = 50
 
     with torch.no_grad():
-        indices = list(range(250))
+        indices = list(range(656))
         path = valid_path
         data = Dataset(indices, path)
         loader = DataLoader(data, batch_size=1, shuffle=False, collate_fn=collate_fn)
